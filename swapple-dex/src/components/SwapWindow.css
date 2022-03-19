@@ -1,0 +1,59 @@
+.Rectangle-8 {
+    width: 452px;
+    height: 478px;
+    border-radius: 4px;
+    background-color: #252529;
+  }
+
+.Rectangle-21 {
+    display: inline-block;
+    position: relative;
+    width: 226px;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #252529;
+  }
+.Rectangle-20 {
+    display: inline-block;
+    position: relative;
+    width: 226px;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #19191c;
+  }
+
+.Exchange {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    color: #3333ff;
+    width: 77px;
+    height: 18px;
+    font-family: ClashDisplayVariable;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    
+}
+
+.Liquidity {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    color: #dedeef;
+    width: 77px;
+    height: 18px;
+    font-family: ClashDisplayVariable;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g data-name="Group 4">
+        <g data-name="Group 20">
+            <path data-name="Icon material-account-balance-wallet" d="M18 19.115h8.894V12H18zm3.558-2.224a1.334 1.334 0 1 1 1.334-1.334 1.332 1.332 0 0 1-1.334 1.335z" transform="translate(-6.451 -3.552)" style="fill:#9a9afb"/>
+            <path data-name="Icon material-account-balance-wallet" d="M20.51 17.841v.889a1.784 1.784 0 0 1-1.779 1.779H6.279A1.778 1.778 0 0 1 4.5 18.731V6.279A1.778 1.778 0 0 1 6.279 4.5h12.452a1.784 1.784 0 0 1 1.779 1.779v.889h-8a1.778 1.778 0 0 0-1.779 1.779v7.115a1.778 1.778 0 0 0 1.769 1.779z" transform="translate(-.944 -.504)" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>
