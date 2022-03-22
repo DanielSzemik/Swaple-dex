@@ -1,0 +1,97 @@
+.react-tabs {
+
+}
+
+.react-tabs__tab-list {
+
+}
+
+.Rectangle-8 {
+  position: relative;
+  top: -22px;
+  left: 40px;
+  width: 452px;
+  height: 415px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: #252529;
+}
+
+.Liquidity {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 77px;
+  height: 18px;
+  font-family: ClashDisplayVariable;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  
+}
+
+.Exchange {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 77px;
+  height: 18px;
+  font-family: ClashDisplayVariable;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;  
+}
+
+
+
+
+.react-tabs__tab {
+  outline: none;
+  display: inline-block;
+  position: relative;
+  width: 226px;
+  height: 63px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #19191c;
+}
+
+.react-tabs__tab--selected {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  color: #3333ff;
+  display: inline-block;
+  position: relative;
+  width: 226px;
+  height: 63px;
+  border-radius: 4px;
+  background-color: #252529;
+}
+
+.react-tabs__tab--disabled {
+
+}
+
+.react-tabs__tab:focus {
+
+}
+
+.react-tabs__tab:focus:after {
+
+}
+
+.react-tabs__tab-panel {
+
+}
+
+.react-tabs__tab-panel--selected {
+
+}

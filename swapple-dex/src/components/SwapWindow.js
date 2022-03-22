@@ -5,12 +5,12 @@ const SwapWindow = () => {
         console.log('click')
     }
     return (
-        <div class="Rectangle-8">
-             <div class="Rectangle-21">
-                <span class="Exchange">Exchange</span>
+        <div className="Rectangle-8">
+             <div className="Rectangle-21">
+                <span className="Exchange">Exchange</span>
             </div>
-            <div onClick={liquidityClicked} class="Rectangle-20">
-                <span class="Liquidity">Liquidity</span>
+            <div onClick={liquidityClicked} className="Rectangle-20">
+                <span className="Liquidity">Liquidity</span>
             </div>
         </div>
     )
