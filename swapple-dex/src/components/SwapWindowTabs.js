@@ -13,7 +13,13 @@ const SwapWindowTabs = () => {
             </TabList>
         
             <TabPanel>
-                <div className="Rectangle-8"></div>
+                <div className="Rectangle-8">
+                    <div className="SwapCoinsText">Swap Coins</div>
+
+                    <div className="Rectangle-12">
+                        <div className="ConnectWalletText">CONNECT WALLET</div>
+                    </div>   
+                </div>
             </TabPanel>
             <TabPanel>
                 <div className="Rectangle-8"></div>

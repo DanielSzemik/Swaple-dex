@@ -1,12 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import './css/clash-display.css';
 import Header from './components/Header'
 //import SwapWindow from './components/SwapWindow'
 import SwapWindowTabs from './components/SwapWindowTabs'
+import background from './img/coin-3-d.png';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ 
+      backgroundImage: `url(${background})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'bottom 0px left 30%'
+    }}>
       <div className="Header">
         <Header />
       </div>
