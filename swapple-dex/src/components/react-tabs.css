@@ -6,6 +6,35 @@
 
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #757590;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #757590;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #757590;
+}
+
+.swap-around-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  top: 209px;
+  left: 206px;
+  position: absolute;
+  background-color: #19191c;
+
+}
+
+.arrow-icon{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
 
 .Rectangle-8 {
   position: relative;
@@ -28,13 +57,134 @@
   
 }
 
+*:focus {
+  outline: none;
+}
+
+
+
+.from-input {
+  border:none;
+  border-color: #19191c;
+  background-color:transparent;
+  width: 136px;
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  font-family: ClashDisplay-Medium;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dedeef;
+}
+
+.from-box {
+  width: 388px;
+  height: 72px;
+  border-radius: 4px;
+  background-color: #19191c;
+  position: absolute;
+  top: 129px;
+  left: 32px;
+}
+
+.from-text {
+  position: absolute;
+  top: 109px; left: 40px;
+  width: 38px;
+  height: 16px;
+  font-family: ClashDisplay-Regular;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757590;
+}
+
+.dollar-amount{
+  position: absolute;
+  top: 46px; left: 24px;
+  width: 10px;
+  font-family: ClashDisplay-Medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a3a3b7;
+}
+
+
+.to-input {
+  border:none;
+  border-color: #19191c;
+  background-color:transparent;
+  width: 136px;
+  position: absolute;
+  top: 16px;
+  left: 22px;
+  font-family: ClashDisplay-Medium;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dedeef;
+}
+
+.to-box {
+  width: 388px;
+  height: 72px;
+  border-radius: 4px;
+  background-color: #19191c;
+  position: absolute;
+  top: 257px;
+  left: 32px;
+}
+
+.to-text {
+  position: absolute;
+  top: 237px; left: 40px;
+  width: 38px;
+  height: 16px;
+  font-family: ClashDisplay-Regular;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757590;
+}
+
+
+.settings-gear {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 .ConnectWalletText {
   width: 184px;
   height: 21px;
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%; left: 46%;
   transform: translate(-50%,-50%);
-  font-family: ClashDisplayVariable;
+  font-family: ClashDisplay-Regular;
   font-size: 18px;
   font-weight: 600;
   font-stretch: normal;
@@ -43,6 +193,13 @@
   letter-spacing: 0.9px;
   text-align: center;
   color: #ffffff;
+  display:inline-block;
+}
+
+.connect-wallet-icon{
+  position: absolute;
+  top: 50%; left: 309px;
+  transform: translate(-50%,-50%);
 }
 
 .SwapCoinsText {
@@ -50,9 +207,9 @@
   top: 46px; left: 50%;
   transform: translate(-50%,-50%);
   z-index:-2;
-  width: 134px;
+  width: 135px;
   height: 27px;
-  font-family: ClashDisplayVariable;
+  font-family: ClashDisplay-Regular;
   font-size: 24px;
   font-weight: 600;
   font-stretch: normal;
