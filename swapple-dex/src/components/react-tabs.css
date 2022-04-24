@@ -67,7 +67,7 @@
   border:none;
   border-color: #19191c;
   background-color:transparent;
-  width: 136px;
+  width: 146px;
   position: absolute;
   top: 22px;
   left: 22px;
@@ -108,6 +108,94 @@
   color: #757590;
 }
 
+.from-token{
+  position: absolute;
+  top: 20px; left: 244px;
+  width: 128px;
+  height: 32px;
+  background-color: #19191c;
+}
+
+.from-token:hover {
+  filter: brightness(120%);
+}
+
+.swaple-token-logo{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.from-token-ticker{
+  position: absolute;
+  top: 5px; left: 41px;
+  color: #dedeef;
+  font-family: ClashDisplay-Regular;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.from-polygon{
+  position: absolute;
+  top: 13px; left: 113px;
+}
+
+.from-token-list{
+  position: absolute;
+  top: 4px; left: 228px;
+  width: 156px;
+  height: 208px;
+  background-color: #000;
+  z-index: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.from-token-list::-webkit-scrollbar{
+  width: 0px;
+}
+
+.token-list-margin{
+  position: relative;
+  width: 149px;
+  height: 9px;
+}
+
+.token-dropdown-item{
+  position: relative;
+  width: 156px;
+  height: 45px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+
+
+.token-dropdown-item:hover {
+  filter: brightness(120%);
+  background-color: #101010;
+}
+
+.token-dropdown-item-logo{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 12px;
+  top: 7px;
+}
+
+.token-dropdown-item-ticker{
+  position: absolute;
+  top: 12px; left: 53px;
+  color: #dedeef;
+  font-family: ClashDisplay-Regular;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .dollar-amount{
   position: absolute;
   top: 46px; left: 24px;
@@ -128,7 +216,7 @@
   border:none;
   border-color: #19191c;
   background-color:transparent;
-  width: 136px;
+  width: 146px;
   position: absolute;
   top: 16px;
   left: 22px;
@@ -193,7 +281,7 @@
   letter-spacing: 0.9px;
   text-align: center;
   color: #ffffff;
-  display:inline-block;
+  white-space: nowrap;
 }
 
 .connect-wallet-icon{
@@ -218,6 +306,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #dedeef;
+  white-space: nowrap;
 }
 
 .Liquidity {
