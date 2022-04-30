@@ -27,7 +27,25 @@
   left: 206px;
   position: absolute;
   background-color: #19191c;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 
+}
+
+.swap-around-button:hover{
+  background-color: #3636f7;
+}
+
+.swap-around-button:active{
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
 }
 
 .arrow-icon{
@@ -46,20 +64,7 @@
   background-color: #252529;
 }
 
-.Rectangle-12 {
-  z-index:-1;
-  position:relative;
-  width: 452px;
-  height: 72px;
-  border-radius: 0px 0px 4px 4px;
-  top: 415px;
-  background-color: #3636f7;
-  
-}
 
-*:focus {
-  outline: none;
-}
 
 
 
@@ -114,6 +119,7 @@
   width: 128px;
   height: 32px;
   background-color: #19191c;
+  cursor: pointer;
 }
 
 .from-token:hover {
@@ -264,6 +270,42 @@
   position: absolute;
   top: 20px;
   right: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.settings-gear:hover {
+  filter: brightness(120%);
+}
+
+.settings-gear:active {
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+.connect-wallet {
+  z-index:-1;
+  position:relative;
+  width: 452px;
+  height: 72px;
+  border-radius: 0px 0px 4px 4px;
+  top: 415px;
+  background-color: #3636f7;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.connect-wallet:hover {
+  filter: brightness(120%);
+}
+
+.connect-wallet:active {
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+*:focus {
+  outline: none;
 }
 
 .ConnectWalletText {

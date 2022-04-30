@@ -15,6 +15,14 @@ import MATIC from '../img/coinLogos/MATIC.png';
 
 
 const SwapWindowTabs = () => {
+    const swapTopAndBottom = () => {
+        var a = fromTokenTicker;
+        var b = fromTokenLogo;
+        setFromTokenLogo(toTokenLogo);
+        setFromTokenTicker(toTokenTicker);
+        setToTokenLogo(b);
+        setToTokenTicker(a);
+    }
     const [showFromTokenDropdown, setShowFromTokenDropdown] = React.useState(false)
     const fromDropdownClicked = () => {
         setShowFromTokenDropdown(true)
@@ -22,6 +30,10 @@ const SwapWindowTabs = () => {
     const [fromTokenTicker, setFromTokenTicker] = React.useState("SWPL")
     const [fromTokenLogo, setFromTokenLogo] = React.useState(SWPL)
     function changeFromToken(ticker,image){
+        if (toTokenTicker == ticker){
+            setToTokenTicker(fromTokenTicker)
+            setToTokenLogo(fromTokenLogo)
+        }
         setFromTokenTicker(ticker)
         setFromTokenLogo(image)
         setShowFromTokenDropdown(false)
@@ -62,6 +74,10 @@ const SwapWindowTabs = () => {
     const [toTokenTicker, setToTokenTicker] = React.useState("CAKE")
     const [toTokenLogo, setToTokenLogo] = React.useState(CAKE)
     function changeToToken(ticker,image){
+        if (fromTokenTicker == ticker){
+            setFromTokenTicker(toTokenTicker)
+            setFromTokenLogo(toTokenLogo)
+        }
         setToTokenTicker(ticker)
         setToTokenLogo(image)
         setShowToTokenDropdown(false)
@@ -104,7 +120,10 @@ const SwapWindowTabs = () => {
         
             <TabPanel>
                 <div className="Rectangle-8">
-                    <img src={settingsGear} className="settings-gear" alt="settings"/>
+                    <div className="settings-gear">
+                        <img src={settingsGear} alt="settings"/>
+                    </div>
+                    
                     <span className="SwapCoinsText">Swap Coins</span>
                     <div className="from-text">From</div>
                     <div className="from-box">
@@ -118,7 +137,7 @@ const SwapWindowTabs = () => {
                         </div>
                         {showFromTokenDropdown ? <FromTokenDropdownDiv /> : null}
                     </div>
-                    <div className="swap-around-button">
+                    <div onClick={swapTopAndBottom} className="swap-around-button">
                         <img src={arrowIcon} className="arrow-icon" alt="swap"/>
                     </div>
                     <div className="to-text">To</div>
@@ -135,7 +154,7 @@ const SwapWindowTabs = () => {
                         {showToTokenDropdown ? <ToTokenDropdownDiv /> : null}
                     </div>
 
-                    <div className="Rectangle-12">
+                    <div className="connect-wallet">
                         <div className="ConnectWalletText">CONNECT WALLET</div>
                         <img src={connectWalletIcon} className="connect-wallet-icon" alt="settings"/>
                     </div>   

@@ -11,7 +11,7 @@ function App() {
     <div className="App" style={{ 
       backgroundImage: `url(${background})`,
       backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'bottom 0px left 30%'
+      backgroundPosition: 'bottom calc(50% - 185px) left calc(50% - 200px)'
     }}>
       <div className="Header">
         <Header />
