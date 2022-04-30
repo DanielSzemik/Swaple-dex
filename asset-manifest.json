@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Swaple-dex/static/css/main.de59947d.css",
-    "main.js": "/Swaple-dex/static/js/main.ea103d09.js",
+    "main.css": "/Swaple-dex/static/css/main.5fbd862e.css",
+    "main.js": "/Swaple-dex/static/js/main.d8c9bc21.js",
     "static/js/787.edf8beb7.chunk.js": "/Swaple-dex/static/js/787.edf8beb7.chunk.js",
     "static/media/ClashDisplay-Variable.ttf": "/Swaple-dex/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
     "static/media/ClashDisplay-Light.ttf": "/Swaple-dex/static/media/ClashDisplay-Light.65f6b9963b2bc29f88d0.ttf",
@@ -29,12 +29,12 @@
     "static/media/Group13.svg": "/Swaple-dex/static/media/Group13.9874f4ae323800b9cced1e25f2ab1d54.svg",
     "index.html": "/Swaple-dex/index.html",
     "static/media/arrow.svg": "/Swaple-dex/static/media/arrow.9d476c2286b69b78a4737db4bbe69d11.svg",
-    "main.de59947d.css.map": "/Swaple-dex/static/css/main.de59947d.css.map",
-    "main.ea103d09.js.map": "/Swaple-dex/static/js/main.ea103d09.js.map",
+    "main.5fbd862e.css.map": "/Swaple-dex/static/css/main.5fbd862e.css.map",
+    "main.d8c9bc21.js.map": "/Swaple-dex/static/js/main.d8c9bc21.js.map",
     "787.edf8beb7.chunk.js.map": "/Swaple-dex/static/js/787.edf8beb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de59947d.css",
-    "static/js/main.ea103d09.js"
+    "static/css/main.5fbd862e.css",
+    "static/js/main.d8c9bc21.js"
   ]
 }
