@@ -326,9 +326,34 @@
   white-space: nowrap;
 }
 
+.swap-text {
+  width: 62px;
+  height: 21px;
+  position: absolute;
+  top: 50%; left: 47%;
+  transform: translate(-50%,-50%);
+  font-family: ClashDisplay-Regular;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+
 .connect-wallet-icon{
   position: absolute;
   top: 50%; left: 309px;
+  transform: translate(-50%,-50%);
+}
+
+.swap-icon{
+  position: absolute;
+  top: 50%; left: 251px;
   transform: translate(-50%,-50%);
 }
 

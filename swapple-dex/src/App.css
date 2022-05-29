@@ -19,6 +19,12 @@
   justify-content: 'center';
 }
 
+.connect-wallet-box{  
+  position: absolute;
+  top: 22px;
+  right: 22px;  
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -45,11 +51,132 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overlay-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+  z-index: 3;
+}
+
+.connect-wallet-overlay{
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 442px;
+  height: 279px;
+  border-radius: 4px;
+  background-color: #252529;
+}
+
+.overlay-connect-wallet-text{
+  position: absolute;
+  top: 40px; 
+  left: 133px;
+  width: 176px;
+  height: 27px;
+  font-family: ClashDisplay-Regular;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dedeef;
+}
+
+.overlay-choose-wallet-text{
+  position: absolute;
+  top: 73px; 
+  left: 75px;
+  width: 368px;
+  height: 18px;
+  font-family: ClashDisplay-Regular;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a3a3b7;
+}
+
+.overlay-metamask-box{
+  position: absolute;
+  top: 132px; 
+  left: 38px;
+  width: 175px;
+  height: 111px;
+  border-radius: 4px;
+  background-color: #19191c;
+  cursor:pointer;
+  transition: 0.2s;
+}
+
+.overlay-metamask-box:hover{
+  background-color: #3636f7;
+}
+
+.overlay-metamask-box:active{
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.overlay-phantom-box{
+  position: absolute;
+  top: 132px; 
+  left: 229px;
+  width: 175px;
+  height: 111px;
+  border-radius: 4px;
+  background-color: #19191c;
+}
+
+.metamask-overlay-icon{
+  position: absolute;
+  top: 24.6px; 
+  left: 68.7px;
+}
+
+.metamask-overlay-text{
+  position: absolute;
+  top: 79px; 
+  left: 47px;
+  font-size: 16px;
+  font-family: ClashDisplay-Regular;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a3a3b7;
+}
+
+.phantom-overlay-icon{
+  position: absolute;
+  top: 22.6px; 
+  left: 67px;
+}
+
+.phantom-overlay-text{
+  position: absolute;
+  top: 79px; 
+  left: 53px;
+  font-size: 16px;
+  font-family: ClashDisplay-Regular;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a3a3b7;
 }

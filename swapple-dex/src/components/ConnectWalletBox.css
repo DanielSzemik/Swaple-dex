@@ -1,0 +1,110 @@
+.root {
+    position: relative;
+    float:right;
+    text-align: center;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.root-unconnected {
+    position: absolute;
+    top: 22px; right: 22px;
+    width: 132px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: #252529;
+}
+
+.root-connected {
+    position: absolute;
+    top: 22px; right: 22px;
+    width: 139px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: #252529;
+}
+
+.connect-wallet-text {
+    width: 110px;
+    height: 16px;
+    position: absolute;
+    top: 12px; left: 16px;
+    font-family: ClashDisplay-Regular;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #757590;
+}
+
+.wallet-address {
+    width: 83px;
+    height: 18px;
+    position: absolute;
+    top: 36px; left: 16px;
+    font-family: ClashDisplay-Regular;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.connected-polygon{
+    position: absolute;
+    bottom: 28px; left: 109px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .connected-polygon:hover {
+    filter: brightness(120%);
+}
+
+.connected-polygon:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+}
+
+
+
+.metamask-wallet-icon {
+    position: absolute;
+    bottom: 11px; right: 16px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+.metamask-wallet-icon:hover {
+    filter: brightness(120%);
+}
+
+.metamask-wallet-icon:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+}
+
+.phantom-wallet-icon {
+    position: absolute;
+    bottom: 8.4px; right: 45.3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.phantom-wallet-icon:hover {
+    filter: brightness(120%);
+}
+
+.phantom-wallet-icon:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+}
